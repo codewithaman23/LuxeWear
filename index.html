@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NOIR essentials - considered streetwear for every day.">
+  <title>NOIR — Modern essentials</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="product-cards.css">
+</head>
+<body>
+  <div class="announcement">Complimentary shipping on orders over ₹1,500 <span>•</span> Easy 7-day returns</div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="NOIR home"><span class="brand-mark">N</span><span>NOIR</span></a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a><a href="streetwear.html">Shop</a><a href="streetwear.html?category=tshirts">T-shirts</a><a href="streetwear.html?category=hoodies">Hoodies</a><a href="streetwear.html?sale=true">Sale</a>
+    </nav>
+    <div class="header-actions">
+      <label class="search"><span class="sr-only">Search products</span><input data-search type="search" placeholder="Search the edit"><button type="button" aria-label="Search">⌕</button></label>
+      <a href="login.html" class="text-action">Account</a><a href="wishlist.html" class="icon-action" aria-label="Wishlist">♡<b data-wishlist-count>0</b></a><a href="cart.html" class="icon-action" aria-label="Shopping bag">Bag <b data-cart-count>0</b></a>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-content"><p class="eyebrow">The new everyday</p><h1>Make room<br><em>for more.</em></h1><p class="hero-copy">Thoughtful pieces, uncomplicated silhouettes, and a softer approach to getting dressed.</p><a class="button button-light" href="streetwear.html">Shop the collection <span>→</span></a></div>
+    </section>
+    <section class="section section-intro"><div><p class="eyebrow">Curated for you</p><h2>Essentials, elevated.</h2></div><p class="section-copy">A considered wardrobe in easy layers and everyday colour. Designed to be worn on repeat.</p></section>
+    <section class="category-grid section">
+      <a class="category-card category-card-dark" href="streetwear.html?category=tshirts"><div><p class="eyebrow">01 / Core</p><h3>Tees for<br>everywhere.</h3><span>Explore tees →</span></div></a>
+      <a class="category-card category-card-image" href="streetwear.html?category=hoodies"><div><p class="eyebrow">02 / Layer</p><h3>Soft<br>structure.</h3><span>Explore layers →</span></div></a>
+      <a class="category-card category-card-sand" href="streetwear.html?sale=true"><div><p class="eyebrow">03 / Now</p><h3>New season,<br>less noise.</h3><span>Shop new arrivals →</span></div></a>
+    </section>
+    <section class="section product-section"><div class="section-heading"><div><p class="eyebrow">The edit</p><h2>Best sellers</h2></div><a class="under-link" href="streetwear.html">View all products →</a></div><div class="product-grid" data-product-grid data-limit="4"></div></section>
+    <section class="editorial section"><div class="editorial-image"></div><div class="editorial-content"><p class="eyebrow">Our approach</p><h2>Wear it<br><em>your way.</em></h2><p>We believe the best clothes are the ones that become part of your rhythm. Made with considered details and a little room to be yourself.</p><a class="under-link" href="streetwear.html">Discover NOIR →</a></div></section>
+    <section class="newsletter section"><p class="eyebrow">Stay in the know</p><h2>Good things,<br><em>occasionally.</em></h2><form data-newsletter><input required type="email" placeholder="Your email address" aria-label="Email address"><button class="button button-dark" type="submit">Sign me up <span>→</span></button></form><small data-form-message></small></section>
+  </main>
+  <footer class="site-footer"><div class="brand"><span class="brand-mark">N</span><span>NOIR</span></div><div><a href="streetwear.html">Shop</a><a href="login.html">Account</a><a href="cart.html">Shipping & returns</a></div><p>© 2026 NOIR. Made for everyday.</p></footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
